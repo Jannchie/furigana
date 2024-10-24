@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Phonetic from '@/components/Phonetic.vue'
-import { useMouse, useWindowFocus } from '@vueuse/core'
+import { useMouse } from '@vueuse/core'
 import OpenAI from 'openai'
 import { zodResponseFormat } from 'openai/helpers/zod'
 import { z } from 'zod'
