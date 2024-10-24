@@ -5,7 +5,16 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Max Min Vue</title>
+  <title>振り仮名</title>
+  <script>
+    var e =
+      window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+    t = localStorage.getItem('scheme') || 'auto'
+    'dark' === t || (e && 'light' !== t)
+      ? document.documentElement.classList.add("dark")
+      : null
+  </script>
 </head>
 
 <body>

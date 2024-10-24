@@ -8,5 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    Phonetic: typeof import('./components/Phonetic.vue')['default']
+    Ruby: typeof import('./components/Ruby.vue')['default']
   }
 }
